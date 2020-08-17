@@ -2,12 +2,13 @@
 require 'pry'
 class School
   attr_reader :name, :roster
-  @roster = {}
+  #@roster = {}
   #had to define the setter ourselves because this is not a standard property, cna't use attr
 
 
   def initialize(name)
     @name = name
+    @roster = {}
   end
 
 def add_student(studentname, grade)
