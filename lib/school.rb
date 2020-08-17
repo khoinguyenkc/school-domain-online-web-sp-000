@@ -23,3 +23,4 @@ end
 #========
 lakeside = School.new('lakeside high')
 puts lakeside.name
+puts lakeside.roster
