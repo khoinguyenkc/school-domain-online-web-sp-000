@@ -35,7 +35,6 @@ def sort
 
     @roster[gradelevel] = studentsinthatgrade.sort
     #must save, otherwise array stays intact
-    print @roster[gradelevel] 
   end
 
 end
