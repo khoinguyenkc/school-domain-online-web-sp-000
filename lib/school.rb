@@ -6,14 +6,9 @@ class School
   #had to define the setter ourselves because this is not a standard property, cna't use attr
 
 
-def initialize(name)
-  @name = name
-end
-
-
-
-
-
+  def initialize(name)
+    @name = name
+  end
 
 
 
