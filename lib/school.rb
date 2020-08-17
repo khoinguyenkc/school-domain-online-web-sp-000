@@ -1,5 +1,5 @@
 # code here!
-
+require 'pry'
 class School
   attr_reader :name, :roster
   @roster = {}
@@ -12,6 +12,7 @@ class School
 
 def add_student(studentname, grade)
   #create new grade if neccessary
+  binding.pry
   if !@roster.keys.include?(grade)
     @roster[grade] = []
   end
