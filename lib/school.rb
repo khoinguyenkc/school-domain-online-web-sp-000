@@ -31,8 +31,9 @@ def grade(gradenumber)
 end
 
 def sort
-  @roster.each do | gradelevel, studentsinthatgrade |
-    puts studentsinthatgrade
+  @roster.each do | x |
+    puts x
+    #puts studentsinthatgrade
     #studentsinthatgrade.sort
   end
 
