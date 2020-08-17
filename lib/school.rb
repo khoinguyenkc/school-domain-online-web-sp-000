@@ -54,3 +54,4 @@ lakeside.add_student("Blake Johnson", 7)
 lakeside.add_student("Jack Bauer", 7)
 puts lakeside.name
 puts lakeside.roster
+lakeside.sort
