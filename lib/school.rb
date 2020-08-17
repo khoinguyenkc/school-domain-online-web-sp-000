@@ -1,6 +1,7 @@
 # code here!
 
 class School
+  attr_reader :name
   @roster = {}
   #had to define it ourselves because this is not a standard property, cna't use attr
 
