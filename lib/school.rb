@@ -16,9 +16,10 @@ class School
 end
 
 #========
-lakeside = School.new('lakeside high')
-puts lakeside.name
-puts lakeside.roster
 
 abc = School.new('Bayside High School')
 abc.name
+
+lakeside = School.new('lakeside high')
+puts lakeside.name
+puts lakeside.roster
