@@ -6,7 +6,7 @@ class School
   #super interesting: if i put @roster here, the method won't be able to access it...
   #i've seen people putting class constants here, but i guess not instance variables....
   #note: if we use attr stuff you're creating methods that WILL create new instance variables ONLY when the methods are called
-  #they're not created at first. 
+  #they're not created at first.
 
   def initialize(name)
     @name = name
