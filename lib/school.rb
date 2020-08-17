@@ -32,7 +32,7 @@ end
 
 def sort
   @roster.each do | key, value |
-    puts "key is #{keys}, value is #{value} "
+    puts "key is #{key}, value is #{value} "
   end
     #puts studentsinthatgrade
     #studentsinthatgrade.sort
