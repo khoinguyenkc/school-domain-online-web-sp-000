@@ -33,7 +33,7 @@ end
 def sort
   @roster.each do | x, y |
     print y
-
+  end
     #puts studentsinthatgrade
     #studentsinthatgrade.sort
   #end
