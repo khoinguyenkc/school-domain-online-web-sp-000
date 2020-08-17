@@ -33,8 +33,9 @@ end
 def sort
   @roster.each do | gradelevel, studentsinthatgrade |
 
-    studentsinthatgrade.sort
-    print studentsinthatgrade
+    @roster[gradelevel] = studentsinthatgrade.sort
+    #must save, otherwise array stays intact
+    print @roster[gradelevel] 
   end
 
 end
