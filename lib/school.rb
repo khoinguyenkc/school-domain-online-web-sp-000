@@ -31,12 +31,11 @@ def grade(gradenumber)
 end
 
 def sort
-  @roster.each do | key, value |
-    puts "key is #{key}, value is #{value} "
+  @roster.each do | gradelevel, studentsinthatgrade |
+
+    studentsinthatgrade.sort
+    puts studentsinthatgrade
   end
-    #puts studentsinthatgrade
-    #studentsinthatgrade.sort
-  #end
 
 end
 
