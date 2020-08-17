@@ -21,10 +21,14 @@ def add_student(studentname, grade)
   if !@roster.keys.include?(grade)
     @roster[grade] = []
   end
-
   #add to array
   @roster[grade] << studentname
   end
+
+
+def grade(gradenumber)
+  @roster[gradenumber]
+end
 
 
 end
