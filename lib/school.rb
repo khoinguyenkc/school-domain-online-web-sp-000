@@ -28,6 +28,6 @@ end
 #========
 
 lakeside = School.new('lakeside high')
-#lakeside.add_student("Zach Morris", 9)
+lakeside.add_student("Zach Morris", 9)
 puts lakeside.name
 puts lakeside.roster
