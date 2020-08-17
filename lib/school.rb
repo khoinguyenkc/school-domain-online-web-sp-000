@@ -10,6 +10,14 @@ class School
     @name = name
   end
 
+def add_student(studentname, grade)
+  #create new grade if neccessary
+  if !@roster.keys.include?(grade)
+    @roster[grade] = []
+  end
+
+  #add to array
+  @roster[grade] << studentname
 
 
 
@@ -17,9 +25,8 @@ end
 
 #========
 
-abc = School.new('Baaaayside High School')
-puts abc.name
-
 lakeside = School.new('lakeside high')
+lakeside.add_student("Zach Morris", 9)
+
 puts lakeside.name
 puts lakeside.roster
