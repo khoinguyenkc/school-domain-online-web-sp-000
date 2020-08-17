@@ -16,3 +16,6 @@ end
 
 
 end
+
+#========
+lakeside = School.new('lakeside high')
