@@ -32,7 +32,7 @@ end
 
 def sort
   @roster.each do | x, y |
-    prints y
+    print y
 
     #puts studentsinthatgrade
     #studentsinthatgrade.sort
