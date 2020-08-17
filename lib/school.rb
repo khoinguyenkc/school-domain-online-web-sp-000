@@ -44,6 +44,11 @@ end
 #========
 
 lakeside = School.new('lakeside high')
-lakeside.add_student("Zach Morris", 9)
+lakeside.add_student("Homer Simpson", 9)
+lakeside.add_student("Bart Simpson", 9)
+lakeside.add_student("Avi Flombaum", 10)
+lakeside.add_student("Jeff Baird", 10)
+lakeside.add_student("Blake Johnson", 7)
+lakeside.add_student("Jack Bauer", 7)
 puts lakeside.name
 puts lakeside.roster
