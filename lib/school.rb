@@ -18,7 +18,7 @@ end
 #========
 
 abc = School.new('Baaaayside High School')
-abc.name
+puts abc.name
 
 lakeside = School.new('lakeside high')
 puts lakeside.name
