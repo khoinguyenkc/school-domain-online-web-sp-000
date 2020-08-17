@@ -32,7 +32,8 @@ end
 
 def sort
   @roster.each do | gradelevel, studentsinthatgrade |
-    studentsinthatgrade.sort
+    puts studentsinthatgrade
+    #studentsinthatgrade.sort
   end
 
 end
