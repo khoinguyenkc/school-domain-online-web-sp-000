@@ -13,6 +13,7 @@ class School
 def add_student(studentname, grade)
   #create new grade if neccessary
   binding.pry
+  
   if !@roster.keys.include?(grade)
     @roster[grade] = []
   end
@@ -27,6 +28,6 @@ end
 #========
 
 lakeside = School.new('lakeside high')
-lakeside.add_student("Zach Morris", 9)
+#lakeside.add_student("Zach Morris", 9)
 puts lakeside.name
 puts lakeside.roster
