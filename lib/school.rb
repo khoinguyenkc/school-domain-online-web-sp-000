@@ -18,7 +18,7 @@ def add_student(studentname, grade)
 
   #add to array
   @roster[grade] << studentname
-
+  end
 
 
 end
