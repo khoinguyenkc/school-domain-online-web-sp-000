@@ -30,6 +30,13 @@ def grade(gradenumber)
   @roster[gradenumber]
 end
 
+def sort
+  @roster.each do | gradelevel, studentsinthatgrade |
+    studentsinthatgrade.sort
+  end
+
+end
+
 
 end
 
