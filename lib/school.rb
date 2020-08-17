@@ -19,3 +19,4 @@ end
 
 #========
 lakeside = School.new('lakeside high')
+puts lakeside
