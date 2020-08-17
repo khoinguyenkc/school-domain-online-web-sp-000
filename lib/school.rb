@@ -17,7 +17,7 @@ end
 
 #========
 
-abc = School.new('Bayside High School')
+abc = School.new('Baaaayside High School')
 abc.name
 
 lakeside = School.new('lakeside high')
