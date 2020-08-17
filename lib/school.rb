@@ -1,6 +1,7 @@
 # code here!
 require 'pry'
 class School
+  attr_reader :name
   #@roster = {}
   #had to define the setter ourselves because this is not a standard property, cna't use attr
   #super interesting: if i put @roster here, the method won't be able to access it...
