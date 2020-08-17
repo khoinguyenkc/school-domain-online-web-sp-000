@@ -20,5 +20,5 @@ lakeside = School.new('lakeside high')
 puts lakeside.name
 puts lakeside.roster
 
-alphabetical = School.new('Bayside High School')
+abc = School.new('Bayside High School')
 abc.name
